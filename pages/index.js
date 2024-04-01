@@ -38,7 +38,7 @@ const Home = () => (
       <Box display={{ md: 'flex' }}>
         <Box flexGrow={1}>
           <Heading as="h2" variant="page-title">
-            Takuya Matsuyama
+            Yusuf Shadiq
           </Heading>
           <p>Digital Craftsman ( Artist / Developer / Designer )</p>
         </Box>
@@ -59,10 +59,13 @@ const Home = () => (
             overflow="hidden"
           >
             <Image
-              src="/images/takuya.jpg"
+              src="/images/shadiq.jpg"
               alt="Profile image"
               width="100"
               height="100"
+              style={{
+                filter: 'grayscale(100%);'
+              }}
             />
           </Box>
         </Box>
@@ -79,19 +82,19 @@ const Home = () => (
           way to solving real-life problems with code. When not online, he loves
           hanging out with his camera. Currently, he is living off of his own
           product called{' '}
-          <Link as={NextLink} href="/works/inkdrop" passHref scroll={false}>
+          {/* <Link as={NextLink} href="/works/inkdrop" passHref scroll={false}>
             Inkdrop
-          </Link>
+          </Link> */}
           . He publishes content for marketing his products and his YouTube
           channel called &quot;
-          <Link
+          {/* <Link
             as={NextLink}
             href="https://www.youtube.com/devaslife"
             passHref
             target="_blank"
           >
             Dev as Life
-          </Link>
+          </Link> */}
           &quot; has more than 100k subscribers.
         </Paragraph>
         <Box align="center" my={4}>
