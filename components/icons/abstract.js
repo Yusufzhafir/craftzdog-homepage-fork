@@ -12,8 +12,8 @@ const abstract = () => (
       transform="translate(50 50)"
       strokeWidth="0"
       style={{
-          transition: "all 0.3s ease 0s;"
-        }}
+        transition: 'all 0.3s ease 0s;'
+      }}
     ></path>
   </svg>
 )

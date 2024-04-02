@@ -4,21 +4,27 @@ import {
   Container,
   Heading,
   Box,
-  SimpleGrid,
   Button,
   List,
   ListItem,
   useColorModeValue
 } from '@chakra-ui/react'
-import { ChevronRightIcon, EmailIcon } from '@chakra-ui/icons'
+import { ChevronRightIcon, 
+  // EmailIcon 
+} from '@chakra-ui/icons'
 import Paragraph from '../components/paragraph'
-import { BioSection, BioYear } from '../components/bio'
+// import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
-import { GridItem } from '../components/grid-item'
-import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5'
-import thumbYouTube from '../public/images/links/youtube.png'
-import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
+// import { GridItem } from '../components/grid-item'
+import {
+  // IoLogoTwitter,
+  IoLogoInstagram,
+  IoLogoGithub,
+  IoLogoLinkedin
+} from 'react-icons/io5'
+// import thumbYouTube from '../public/images/links/youtube.png'
+// import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
 import Image from 'next/image'
 
 const Home = () => (
@@ -76,11 +82,37 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-          Highly motivated final year student at Universitas Indonesia, majoring in Information Systems.
-          Proficient in fullstack web development. I am genuinely interested in the software world and its wonders. Learning to use go as of 02-04-24 and very inclined towards <Link as={NextLink} passHref href='https://gleam.run/' target='_blank'>gleam</Link> in the near future.
-          I am a huge fan of <Link as={NextLink} passHref href='https://www.youtube.com/@ThePrimeTimeagen' target='_blank'>the primeagen</Link> 
-          {' '}and{' '}<Link as={NextLink} passHref href='https://www.youtube.com/@t3dotgg' target='_blank'>theo</Link> 
-          {' '}because they are very entertaining in their way of knowledge sharing.  
+          Highly motivated final year student at Universitas Indonesia, majoring
+          in Information Systems. Proficient in fullstack web development. I am
+          genuinely interested in the software world and its wonders. Learning
+          to use go as of 02-04-24 and very inclined towards{' '}
+          <Link
+            as={NextLink}
+            passHref
+            href="https://gleam.run/"
+            target="_blank"
+          >
+            gleam
+          </Link>{' '}
+          in the near future. I am a huge fan of{' '}
+          <Link
+            as={NextLink}
+            passHref
+            href="https://www.youtube.com/@ThePrimeTimeagen"
+            target="_blank"
+          >
+            the primeagen
+          </Link>{' '}
+          and{' '}
+          <Link
+            as={NextLink}
+            passHref
+            href="https://www.youtube.com/@t3dotgg"
+            target="_blank"
+          >
+            theo
+          </Link>{' '}
+          because they are very entertaining in their way of knowledge sharing.
         </Paragraph>
         <Box align="center" my={4}>
           <Button
@@ -123,9 +155,7 @@ const Home = () => (
         <Heading as="h3" variant="section-title">
           I ♥
         </Heading>
-        <Paragraph>
-          Food, Movie, Music, Book, LLM
-        </Paragraph>
+        <Paragraph>Food, Movie, Music, Book, LLM</Paragraph>
       </Section>
 
       <Section delay={0.3}>
@@ -156,7 +186,10 @@ const Home = () => (
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://www.linkedin.com/in/yusuf-shadiq-034a741a5/" target="_blank">
+            <Link
+              href="https://www.linkedin.com/in/yusuf-shadiq-034a741a5/"
+              target="_blank"
+            >
               <Button
                 variant="ghost"
                 colorScheme="teal"
