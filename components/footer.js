@@ -4,6 +4,7 @@ import NextLink from 'next/link'
 const Footer = () => {
   return (
     <Box align="center" opacity={0.4} fontSize="sm">
+      © 2024 Yusuf Zhafir Shadiq. All rights reserved.
       This website is built based on the{' '}
       <Link
         as={NextLink}
