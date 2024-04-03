@@ -24,12 +24,21 @@ const Main = ({ children, router }) => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="shadiq" />
         <meta name="twitter:creator" content="shadiq" />
-        <meta name="twitter:image" content="https://www.shadiq.id/blob_card.png" />
+        <meta
+          name="twitter:image"
+          content="https://www.shadiq.id/blob_card.png"
+        />
         <meta property="og:site_name" content="Yusuf Shadiq" />
         <meta name="og:title" content="Yusuf Shadiq" />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content="https://www.shadiq.id/blob_card.png" />
-        <meta name="google-site-verification" content="qvnKPyOMUOkZRlO87tcdjY2BzxyTLT-wqFb2PBKp9Fs" />
+        <meta
+          property="og:image"
+          content="https://www.shadiq.id/blob_card.png"
+        />
+        <meta
+          name="google-site-verification"
+          content="qvnKPyOMUOkZRlO87tcdjY2BzxyTLT-wqFb2PBKp9Fs"
+        />
         <title>Yusuf Shadiq - Homepage</title>
       </Head>
 
