@@ -66,6 +66,7 @@ const Home = () => (
             overflow="hidden"
           >
             <Image
+              priority
               src="/images/shadiq.jpg"
               alt="Profile image"
               width="150"

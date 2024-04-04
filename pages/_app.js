@@ -1,5 +1,5 @@
 import Layout from '../components/layouts/main'
-import { AnimatePresence } from 'framer-motion'
+// import { AnimatePresence } from 'framer-motion'
 import Chakra from '../components/chakra'
 import { Analytics } from '@vercel/analytics/react'
 import { Plus_Jakarta_Sans } from 'next/font/google'
@@ -24,7 +24,7 @@ function Website({ Component, pageProps, router }) {
       }}
     >
       <Layout router={router}>
-        <AnimatePresence
+        {/* <AnimatePresence
           mode="wait"
           initial={true}
           onExitComplete={() => {
@@ -32,9 +32,9 @@ function Website({ Component, pageProps, router }) {
               window.scrollTo({ top: 0 })
             }
           }}
-        >
+        > */}
           <Component {...pageProps} key={router.route} />
-        </AnimatePresence>
+        {/* </AnimatePresence> */}
         <Analytics />
       </Layout>
     </Chakra>
