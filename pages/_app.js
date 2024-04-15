@@ -1,10 +1,11 @@
-import Layout from '../components/layouts/main'
+// import Layout from ''
 // import { AnimatePresence } from 'framer-motion'
 import Chakra from '../components/chakra'
 import { Analytics } from '@vercel/analytics/react'
 import { Plus_Jakarta_Sans } from 'next/font/google'
 import '../public/style.css'
-
+import loadable from '@loadable/component'
+const Layout = loadable(() => import('../components/layouts/main'))
 const JKTSans = Plus_Jakarta_Sans({
   display: 'swap',
   subsets: ['latin'],
