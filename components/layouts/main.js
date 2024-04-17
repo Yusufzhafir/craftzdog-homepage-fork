@@ -19,7 +19,7 @@ const Main = ({ children, router }) => {
         <meta name="author" content="Yusuf Shadiq" />
         <meta name="author" content="Yusuf Shadiq" />
         <link rel="apple-touch-icon" href="apple-touch-icon.png" />
-        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+        <link rel="shortcut icon" href="https://www.shadiq.id/favicon.ico" type="image/x-icon" />
         <meta name="twitter:title" content="Yusuf Shadiq" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="shadiq" />

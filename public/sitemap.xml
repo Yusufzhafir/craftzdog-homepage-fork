@@ -1,16 +1,20 @@
 <xml version="1.0" encoding="UTF-8">
     <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
             <url>
-                <loc>http://www.shadiq.id/</loc>
+                <loc>https://www.shadiq.id/</loc>
+                <lastmod>2024-04-04</lastmod>
             </url>
             <url>
-                <loc>http://www.shadiq.id/works</loc>
+                <loc>https://www.shadiq.id/works</loc>
+                <lastmod>2024-04-04</lastmod>
             </url>
             <url>
-                <loc>http://www.shadiq.id/works/danone</loc>
+                <loc>https://www.shadiq.id/works/danone</loc>
+                <lastmod>2024-04-04</lastmod>
             </url>
             <url>
-                <loc>http://www.shadiq.id/works/tokped</loc>
+                <loc>https://www.shadiq.id/works/tokped</loc>
+                <lastmod>2024-04-04</lastmod>
             </url>
     </urlset>
 </xml>
